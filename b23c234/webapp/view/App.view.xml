@@ -1,0 +1,20 @@
+<mvc:View 
+    controllerName="b23c234.controller.App"
+  
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m">
+    
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                    <Button id="button"
+                            text="{i18n>hello}" 
+                            width="120px" 
+                            type="Emphasized" 
+                            tooltip="Mensaje de ToolTipe" 
+                            press="onShowMessage"/>
+                </pages>
+
+        </App>
+    </Shell>
+</mvc:View>
