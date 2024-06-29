@@ -1,20 +1,26 @@
 <mvc:View 
+
     controllerName="b23c234.controller.App"
-  
-    xmlns:mvc="sap.ui.core.mvc" 
-    xmlns="sap.m">
+    xmlns="sap.m" 
+    xmlns:mvc="sap.ui.core.mvc" >
     
     <Shell id="shell">
+
         <App id="app">
+
             <pages>
-                    <Button id="button"
-                            text="{i18n>hello}" 
-                            width="120px" 
-                            type="Emphasized" 
-                            tooltip="Mensaje de ToolTipe" 
-                            press="onShowMessage"/>
-                </pages>
+
+                <Page>
+
+                    <mvc:XMLView id="HelloPanel" 
+                                 viewName="b23c234.view.HelloPanel" 
+                                 type="XML" /> 
+
+                </Page>
+
+            </pages>
 
         </App>
+
     </Shell>
 </mvc:View>
